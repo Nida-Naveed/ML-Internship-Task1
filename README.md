@@ -20,20 +20,6 @@ The dataset `transaction_anomalies_dataset.csv` contains information about vario
 - **Income**: Income of the account holder.
 - **Account_Type**: Type of account (e.g., personal, business).
 
-## Anomaly Detection Process
-
-We can follow a systematic process to address the challenge of anomaly detection in financial transactions:
-
-1. **Data Collection and Preparation**: Collect transaction data and ensure its accuracy and consistency.
-   
-2. **Data Exploration**: Explore the data to understand its distributions, correlations, and potential anomalies visually.
-   
-3. **Pattern Identification**: Find patterns in the data to identify anomalies. This may involve using statistical methods or visualization techniques.
-   
-4. **Anomaly Detection Algorithms**: Utilize specialized anomaly detection algorithms like Isolation Forest, Local Outlier Factor (LOF), or One-Class SVM (Support Vector Machine) to detect anomalies.
-   
-5. **Evaluation and Validation**: Evaluate the performance of the anomaly detection algorithms and validate their results. This may involve comparing detected anomalies with known fraudulent activities or conducting further investigations.
-
 ## Usage
 
 - The provided dataset can be used for training and testing anomaly detection models in financial transaction monitoring systems.
